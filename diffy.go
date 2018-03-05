@@ -4,10 +4,9 @@
 // - should be able to handle concurrent reads
 // - should be able to provide write locks
 
-package crawly
+package main
 
-func DiffyFunc()
-{
+func DiffyFunc() {
 
 }
 

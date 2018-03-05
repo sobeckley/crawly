@@ -9,6 +9,7 @@ package main
 
 import (
   "fmt"
+//  "net/http"
 )
 
 type Crawly struct {
