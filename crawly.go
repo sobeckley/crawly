@@ -9,13 +9,20 @@ package main
 
 import (
   "fmt"
-//  "net/http"
+  "net/http"
 )
 
 type Crawly struct {
   f bool
-  // tcp socket
+  //urls *diffy
   // map
+}
+
+func (c *Crawly) Get() {
+  rep, err := http.Get("http://www.google.com")
+  defer rep.Body.Close()
+  fmt.Println(err)
+  fmt.Println(rep)
 }
 
 func (c *Crawly) CrawlyFunc() {

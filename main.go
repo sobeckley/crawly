@@ -11,6 +11,7 @@ import (
 func main() {
   crawler := Crawly{}
   crawler.CrawlyFunc()
+  crawler.Get()
   fmt.Println("Hello World!")
 }
 
