@@ -3,9 +3,12 @@
 *.dll
 *.so
 *.dylib
+*.swp
+*~
 
 # Test binary, build with `go test -c`
 *.test
+main
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
