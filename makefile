@@ -1,6 +1,6 @@
 
 
-SOURCES:=main.go crawly.go diffy.go
+SOURCES:=main.go fetch.go
 
 BINARY:=crawl
 
